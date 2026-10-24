@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+<<<<<<< HEAD
+=======
+.pnpm-debug.log*
+>>>>>>> fe2bdfb2e7e37562a10b3668a5b37ba794179811
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -56,6 +60,15 @@ web_modules/
 # Optional stylelint cache
 .stylelintcache
 
+<<<<<<< HEAD
+=======
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+>>>>>>> fe2bdfb2e7e37562a10b3668a5b37ba794179811
 # Optional REPL history
 .node_repl_history
 
@@ -67,8 +80,15 @@ web_modules/
 
 # dotenv environment variable files
 .env
+<<<<<<< HEAD
 .env.*
 !.env.example
+=======
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+>>>>>>> fe2bdfb2e7e37562a10b3668a5b37ba794179811
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -81,7 +101,10 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+<<<<<<< HEAD
 .output
+=======
+>>>>>>> fe2bdfb2e7e37562a10b3668a5b37ba794179811
 
 # Gatsby files
 .cache/
@@ -92,11 +115,17 @@ dist
 # vuepress build output
 .vuepress/dist
 
+<<<<<<< HEAD
 # vuepress v2.x temp directory
 .temp
 
 # Sveltekit cache directory
 .svelte-kit/
+=======
+# vuepress v2.x temp and cache directory
+.temp
+.cache
+>>>>>>> fe2bdfb2e7e37562a10b3668a5b37ba794179811
 
 # vitepress build output
 **/.vitepress/dist
@@ -116,6 +145,7 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+<<<<<<< HEAD
 # Firebase cache directory
 .firebase/
 
@@ -147,3 +177,17 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+=======
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+>>>>>>> fe2bdfb2e7e37562a10b3668a5b37ba794179811
